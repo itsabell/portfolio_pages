@@ -73,6 +73,7 @@ function rabs_smena(elem) {
     document.getElementById(elem.id+'_t').innerHTML=document.getElementById('main_rab_t').innerHTML;
     document.getElementById('main_rab').style.backgroundImage=click_img;
     document.getElementById('main_rab_t').innerHTML=click_imya;
+    $("html,body").scrollTop($(#to_rab).offset().top);
 }
 function menu() {
     if(document.getElementById('min_men').style.display=='none'){
