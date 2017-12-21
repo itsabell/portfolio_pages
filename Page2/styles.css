@@ -589,6 +589,9 @@ footer a, footer .fa{
         margin-bottom: 43px;
         display: block;
     }
+    .first_block_right > div{
+        padding-top: 33px;
+    }
 }
 @media (max-width: 1275px) {
     #imgs{
