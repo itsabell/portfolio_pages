@@ -589,8 +589,11 @@ footer a, footer .fa{
         margin-bottom: 43px;
         display: block;
     }
-    .first_block_right > div{
+    .first_block_right[id="icons"] > div{
         padding-top: 33px;
+    }
+    #first_txt .zagolovok{
+        font-size: 40px;
     }
 }
 @media (max-width: 1275px) {
