@@ -1,0 +1,198 @@
+header{
+    background-color: white;
+}
+body{
+    margin: 0px;
+    background-color: #f6f6f6;
+}
+footer{
+    background-color: #ebebeb;
+}
+.big_text{
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+}
+.min_text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10pt;
+    color: #5f5f5f;
+}
+#img_menu_button{
+    cursor: pointer;
+}
+#menu{
+    width: 100%;
+    text-align: center;
+    transition: 0.6s;
+    font-family: 'Work sans', sans-serif;
+
+    line-height: 30px;
+    z-index: 1;
+    background-color: white;
+    overflow: hidden;
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+#cover, #portfolio{
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#cover{
+    height: 400px;
+    background-image: url("https://psv4.userapi.com/c834704/u82443951/docs/d4/6f82156dedb5/cover.jpg");
+    background-size: cover;
+}
+#portfolio{
+    background-image: url("https://psv4.userapi.com/c834601/u82443951/docs/d5/0bf858b61dee/bckg.png");
+}
+.portfolio_divs{
+    color: white;
+    transition: 0.6s;
+}
+.portfolio_divs a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 9pt;
+    color: inherit;
+    line-height: 14px;
+}
+.portfolio_divs i{
+    color: inherit;
+    font-size: 43px;
+    text-align: center;
+}
+#contact_button{
+    transition: 0.4s;
+    background-color: #252525;
+    color: white;
+    border: 0px;
+    height: 54px;
+    width: 180px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11pt;
+}
+#contact_button:hover{
+    background-color: #03C9A9;
+    cursor:pointer;
+}
+footer i:hover{
+    color: #03C9A9;
+    cursor:pointer;
+}
+.portfolio_divs:hover{
+    color: black;
+    background-color: white;
+    cursor:pointer;
+}
+/*Стили для картинок-блоков*/
+#img_logo{
+    background-image: url("https://psv4.userapi.com/c834600/u82443951/docs/d6/30a6e71cf3b2/Snow.png");
+    display: inline-block;
+    margin: 11.5px 0px;
+    width: 82px;
+    height: 32px;
+}
+#img_menu_button{
+    background-image: url("https://psv4.userapi.com/c834601/u82443951/docs/d15/ad25f1d4c473/Menu.png");
+    display: inline-block;
+    margin: 19.5px 0px;
+    width: 20px;
+    height: 16px;
+    float: right;
+}
+#img_podpis{
+    background-image: url("https://psv4.userapi.com/c834603/u82443951/docs/d3/d79f61131bb5/podpis.png");
+    display: inline-block;
+    width: 223px;
+    height: 57px;
+    margin-top: 37px;
+}
+#img_portfel, #img_clock, #img_star, #img_heart{
+    height:42px;
+    margin-right: 20px;
+    width: 40px;
+    float: left;
+}
+footer > div{
+    padding: 52px 0px;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+.body_blocks{
+    padding: 100px 0px;
+    margin: auto;
+    overflow: auto;
+}
+#header_main_block{
+    display: table;
+    height: 55px;
+    margin: auto;
+}
+.description_block{
+    display: inline-block;
+}
+.portfolio_divs, .portfolio_divs a{
+    float: left;
+}
+.portfolio_divs{
+    width: 25%;
+    display: inline-block;
+}
+@media (min-width: 953px) {
+    footer > div{
+        width: 924px;
+    }
+    .body_blocks{
+        width: 924px;
+    }
+    #header_main_block{
+        width: 924px;
+    }
+    .description_block{
+        width: 50%;
+    }
+    .portfolio_divs, .portfolio_divs a{
+        float: left;
+    }
+    .portfolio_divs{
+        width: 25%;
+        display: inline-block;
+    }
+}
+@media (max-width: 953px) {
+    footer > div{
+        padding: 52px 10px;
+        display: block;
+    }
+    .body_blocks{
+        padding: 100px 10px;
+        text-align: center;
+    }
+    #header_main_block{
+        display: block;
+        height: 55px;
+        margin: 0px 10px;
+    }
+    .description_block{
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio_divs, .portfolio_divs a{
+        float: none;
+        padding: 20px 0px;
+    }
+    .portfolio_divs{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    #img_portfel, #img_clock, #img_star, #img_heart{
+        height:42px;
+        margin: auto;
+        width: 40px;
+        float: none;
+    }
+}
