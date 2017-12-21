@@ -1,0 +1,606 @@
+*{
+    font-family: "Open Sans&", sans-serif;
+}
+body{
+    margin: 0px;
+    overflow-x: scroll;
+}
+body > div > div{
+    width: 1260px;
+    margin: auto;
+    padding-top: 101px;
+    padding-bottom: 110px;
+}
+input, button, textarea{
+    outline: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+p{
+    font-weight: 600;
+    font-size: 23px;
+    color: #434343;
+    margin: 0px;
+    display: inline;
+}
+button{
+    width: 226px;
+    height: 52px;
+    border: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    border-radius: 8px;
+    border: 2px solid #ff2d2d;
+    cursor: pointer;
+}
+hr{
+    background-color: #ececec;
+    height: 2px;
+    border: 0px;
+    margin-top: 101px;
+}
+.prod_line{
+    width: 130px;
+    height: 2px;
+    display: inline-block;
+    background-color: #ff2d2d;
+}
+.zagolovok{
+    color: #434343;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+}
+.default_text{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+}
+/*HEADER STYLES
+--------------------------*/
+header{
+    height: 88px;
+    background-color: #313030;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+header > div{
+    width: 517px;
+    margin: auto;
+    font-size: 0px;
+}
+header > div:last-child{
+    display: none;
+}
+#min_men{
+    background-color: #313030;
+    text-align: center;
+    display: none;
+}
+header a{
+    color: #e0e0e0;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header > div > a{
+    display: inline-block;
+    padding: 29px 17px 33px 20px;
+    transition: 0.6s;
+    white-space: nowrap;
+}
+header > div > a:hover{
+    background-color: #ff3f40;
+}
+/*END
+--------------------------*/
+/*OUR STRONG STYLE
+--------------------------*/
+#video a:first-child{
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+}
+#video{
+    background-color: #f6f2f2;
+    padding-top: 101px;
+}
+#video iframe{
+    box-shadow: inset 0 0 0em rgba(0,0,0,0), 0 0 6em black;
+}
+#video button{
+    background-color: #ff2d2d;
+    color: white;
+}
+#video button:hover{
+    background-color: transparent;
+    color: #ff2d2d;
+}
+.first_block_left{
+    width: 50%;
+    display: inline-block;
+    margin-top: -12px;
+    vertical-align: top;
+}
+.first_block_right{
+    display: inline-block;
+    width: 49%;
+}
+/*DO YOU KNOW STYLE
+--------------------------*/
+#nach button{
+    background-color: transparent;
+    color: #ff2d2d;
+}
+#nach button:hover{
+    background-color: #ff2d2d;
+    color: white;
+}
+.port_divs > div:first-child{
+    margin-bottom: 30px;
+}
+.port_divs > div:last-child{
+    width: 231px;
+    display: inline-block;
+}
+.first_block_left[id="do_you"] > div{
+    width: 499px;
+}
+.first_block_right > div{
+    width: 50%;
+    display: inline-block;
+}
+.first_block_right > div:nth-child(even){
+    width: 49%;
+}
+.first_block_right > div:nth-child(3), .first_block_right > div:nth-child(4){
+    padding-top: 33px;
+}
+/*FEATURE PRODUCTS STYLES
+--------------------------*/
+#feature_products{
+    padding-bottom: 0px;
+}
+#feature_products p{
+    margin: 0px 58px 0px 0px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-bottom: 2px solid #434343;
+}
+#feature_products p:last-child{
+    margin: 0px;
+}
+#feature_products p:hover{
+    color: #ff2d2d;
+    border-bottom: 2px solid #ff2d2d;
+}
+#feature_products > div:first-child{
+    text-align: center;
+    padding-bottom: 0px;
+}
+#feature_products > div:first-child > div:first-child{
+    display: inline-block;
+    width: 500px;
+}
+#imgs{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#imgs > div{
+    display: inline-block;
+    width: 289px;
+    height: 289px;
+    background-position: center;
+    background-size: cover;
+    margin: 22px 22px 0px 0px;
+    z-index: -1;
+}
+#imgs > div:hover{
+    cursor: pointer;
+}
+#imgs > div > div{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    height: 298px;
+    width: 298px;
+    transition: 0.6s;
+}
+#imgs > div > div:hover{
+    height: 309px;
+    width: 309px;
+}
+/*WORKERS STYLES
+--------------------------*/
+#about_us > div > div:first-child{
+    display: inline-block;
+    width: 369px;
+}
+#rabs{
+    margin-top: 72px;
+}
+#rabs > div:first-child{
+    display: inline-block;
+    height: 458px;
+    width: 328px;
+    background-color: #f5f0dd;
+    margin-right: 53px;
+    background-position: center;
+    background-size: cover;
+}
+#rabs > div:last-child{
+    display: inline-block;
+}
+#rabs > div:last-child > div:first-child{
+    width: 500px;
+}
+#rabs i{
+    margin-right: 30px;
+}
+#rabs i:hover{
+    color: #ff2d2d;
+    cursor: pointer;
+}
+#rabs #last{
+    margin: 0;
+}
+#rabs_div > div{
+    display: inline-block;
+    width: 199px;
+    height: 214px;
+    background-color: #f5f0dd;
+    margin-right: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+#rabs_div > div:last-child{
+    margin: 0px;
+}
+#rabs_div > div > div{
+    background-color: black;
+    transition: 0.4s;
+    text-align: center;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+}
+#rabs_div > div p{
+    color: white;
+    font-size: 22px;
+}
+/*SUBSCRIBE STYLES
+--------------------------*/
+#subscribe{
+    height: 512px;
+    background-image: url(https://pp.userapi.com/c840233/v840233260/4fd92/or5Jrp745Es.jpg);
+    background-size: cover;
+    display: table;
+    width: 100%;
+}
+#subscribe div{
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    margin: auto;
+}
+#subscribe a{
+    color: #ffffff;
+    text-transform: none;
+    text-align: center;
+}
+#subscribe input[type="email"]{
+    font-size: 21px;
+    font-weight: 300;
+    width: 530px;
+    border: 23px solid white;
+    border-radius: 9px;
+    margin-right: 25px;
+    outline: none;
+}
+#subscribe input[type="submit"]{
+    height: 76px;
+    vertical-align: top;
+    width: 212px;
+    background-color: #ff2d2d;
+}
+#subscribe input[type="submit"], #contact input[type="submit"]{
+    border-radius: 9px;
+    border: 0px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+/*Contact
+-------------------------*/
+#contact > div:nth-of-type(3){
+    margin-top: 74px;
+}
+#contact > div:nth-of-type(1){
+    display: inline-block;
+    width: 582px;
+}
+#contact > div:nth-of-type(3) > div:first-child{
+    display: inline-block;
+    vertical-align: top;
+}
+#contact form > input:first-child{
+    margin-right: 55px;
+}
+#contact input[type="text"], #contact input[type="email"], #contact textarea{
+    background-color: #e5e5e5;
+    font-size: 21px;
+    font-weight: 300;
+    border: 23px solid #e5e5e5;
+    border-left: 53px solid #e5e5e5;
+    border-radius: 9px;
+}
+#contact input[type="text"], #contact input[type="email"]{
+    width: 264px;
+}
+#contact textarea, #contact input[type="submit"]{
+    margin-top: 45px;
+    width: 660px;
+    resize: none;
+}
+#contact textarea{
+    height: 215px;
+}
+#contact input[type="submit"]{
+    text-transform: uppercase;
+    height: 71px;
+    width: 740px;
+    background-color: #ff1d1d;
+}
+#contact_details div{
+    margin: 52px 0px 0px 57px;
+}
+#contact_details{
+    display: inline-block;
+    height: 506px;
+    width: 410px;
+    background-color: #2d2d2d;
+    margin-left: 105px;
+}
+#contact_details p{
+    text-transform: uppercase;
+}
+#contact_details p, #contact_details a{
+    color: white;
+}
+/* Footer style
+-------------------------------- */
+footer{
+    height: 129px;
+    background-color: #313030;
+}
+footer > div{
+    width: 1260px;
+    margin: auto;
+    padding-top: 52px;
+    display: table;
+}
+footer > div > div{
+    background: #ebebeb;
+    border-radius: 50%;
+    color: #313030;
+    text-align: center;
+    display: table;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 15px;
+}
+footer > div > div:hover{
+    cursor: pointer;
+}
+footer a{
+    color: #b8b8b8;
+}
+footer a, footer .fa{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* END
+---------------------*/
+@media(min-width: 1174px) and (max-width: 1260px){
+    body > div > div{
+        width: 100%;
+        overflow: auto;
+    }
+    body > div#feature_products > div:first-child{
+        overflow: visible;
+    }
+    .first_block_left[id="first_txt"]{
+        width: 457px;
+        padding-left: 10px;
+    }
+    .first_block_right[id="vidos"]{
+        float: right;
+        width: auto;
+        padding-right: 68px;
+    }
+    footer > div{
+        width: 100%;
+    }
+}
+@media(max-width: 1260px){
+    #about_us{
+        text-align: center;
+    }
+    #rabs > div:first-child{
+        margin: 0px 0px 0px 0px;
+        margin: auto;
+    }
+    #rabs{
+        margin-top: 23px;
+    }
+    #rabs_div > div{
+        margin-right: 0px;
+    }
+    #contact > div:nth-of-type(1){
+        width: auto;
+    }
+    .first_block_left[id="do_you"] > div{
+        width: auto;
+    }
+    #contact > div:nth-of-type(1){
+        width: 99%;
+    }
+    #contact{
+        text-align: center;
+    }
+}
+@media(max-width: 1174px){
+    .first_block_left[id="first_txt"]{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .first_block_right[id="vidos"]{
+        padding: 60px 0px 0px 0px;
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .first_block_right[id="vidos"] > div{
+        width: 100%;
+    }
+    .first_block_left[id="do_you"]{
+        width: 100%;
+        text-align: center;
+    }
+    .first_block_right[id="icons"]{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 60px 0 0 0;
+    }
+    body > div > div{
+        width: 100%;
+    }
+    footer > div{
+        width: 100%;
+    }
+}
+@media(max-width: 987px){
+    #feature_products p{
+        display: block;
+        margin: 0px;
+        width: 100%;
+    }
+}
+@media(min-width: 760px) and  (max-width: 1260px){
+    #contact_details{
+        width: 760px;
+        margin-left: 0px;
+        margin-top: 56px;
+    }
+    #contact_details div{
+        margin: 52px 0px 0px 0px;
+    }
+}
+@media(max-width: 833px){
+    #subscribe input[type="email"]{
+        width: 100%;
+        height: 76px;
+        border: 0px;
+        text-align: center;
+        margin-right:0px;
+    }
+    #subscribe input[type="submit"]{
+        width: 100%;
+    }
+}
+@media (max-width: 760px) {
+    #contact > div:nth-of-type(3) > div:first-child{
+        display: block;
+    }
+    #contact form > input[type="text"], #contact form > input[type="email"]{
+        border: 0px;
+        height: 76px;
+        width: 99%;
+        text-align: center;
+    }
+    #contact form > input:first-child{
+        margin-right: 0px;
+    }
+    #contact form > input[type="submit"], #contact form > textarea{
+        width: 99%;
+    }
+    #contact form > textarea{
+        border: 0px;
+        text-align: center;
+        padding-top: 23px;
+    }
+    #contact_details{
+        width: 99%;
+        margin-left: 0px;
+        margin-top: 56px;
+    }
+    #contact_details div{
+        margin: 52px 0px 0px 0px;
+    }
+}
+@media (max-width: 560px) {
+    #about_us > div > div:first-child{
+        width: auto;
+    }
+    iframe{
+        width: 100%;
+    }
+    .first_block_right > div{
+        width: 100%;
+        display: block;
+    }
+    .first_block_right > div:nth-child(even){
+        width: 100%;
+    }
+    header > div:first-child{
+        display: none;
+    }
+    header > div:last-child{
+        display: block;
+        text-align: right;
+        vertical-align: middle;
+        width: 100%;
+    }
+    header svg{
+        margin-top: 23px;
+        margin-right: 11px;
+        margin-bottom: 23px;
+        cursor: pointer;
+    }
+    header a{
+        margin-bottom: 43px;
+        display: block;
+    }
+}
+@media (max-width: 1275px) {
+    #imgs{
+        width: auto;
+        text-align: center;
+    }
+}
+@media(max-width: 600px){
+    #imgs > div{
+        margin: 22px 0 0 0;
+    }
+    #ings > div > div{
+        width:280px;
+        height:280px;
+    }
+}
+
+@media (max-width: 330px) {
+    #rabs > div:first-child {
+        width: 99%;
+    }
+}
