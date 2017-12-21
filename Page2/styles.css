@@ -592,7 +592,7 @@ footer a, footer .fa{
     .first_block_right[id="icons"] > div{
         padding-top: 33px;
     }
-    #first_txt .zagolovok{
+    #video a:first-child{
         font-size: 40px;
     }
 }
