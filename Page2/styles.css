@@ -100,6 +100,10 @@ header > div > a:hover{
 --------------------------*/
 /*OUR STRONG STYLE
 --------------------------*/
+#nach_a {
+    width: 400px;
+    display: block;
+}
 #video a:first-child{
     font-weight: 900;
     font-size: 50px;
@@ -432,6 +436,9 @@ footer a, footer .fa{
     }
 }
 @media(max-width: 1260px){
+    #nach_a{
+        width: 100%;
+    }
     #about_us{
         text-align: center;
     }
