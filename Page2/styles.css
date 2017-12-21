@@ -414,28 +414,28 @@ footer a, footer .fa{
 }
 /* END
 ---------------------*/
-#1, #1>div{
+#imgs > div[id="1"], #imgs > div[id="1"] > div{
 background-image: url("https://psv4.userapi.com/c623800/u82443951/docs/d18/5df99a5e189d/print1.png");
 }
-#2, #2>div{
+#imgs > div[id="2"], #imgs > div[id="2"] > div{
 background-image: url("https://psv4.userapi.com/c834500/u82443951/docs/d16/2df95d79e52d/print2.png");
 }
-#3, #3>div{
+#imgs > div[id="3"], #imgs > div[id="3"] > div{
 background-image: url("https://psv4.userapi.com/c834602/u82443951/docs/d10/9bd4aa16aa40/web1.png");
 }
-#4, #4>div{
+#imgs > div[id="4"], #imgs > div[id="4"] > div{
 background-image: url("https://psv4.userapi.com/c834601/u82443951/docs/d7/f9add7fa40cf/web2.png");
 }
-#5, #5>div{
+#imgs > div[id="5"], #imgs > div[id="5"] > div{
 background-image: url("https://psv4.userapi.com/c834603/u82443951/docs/d5/2123559e3a70/user1.png");
 }
-#6, #6>div{
+#imgs > div[id="6"], #imgs > div[id="6"] > div{
 background-image: url("https://psv4.userapi.com/c834702/u82443951/docs/d2/e93f57aa8ce2/mock1.png");
 }
-#7, #7>div{
+#imgs > div[id="7"], #imgs > div[id="7"] > div{
 background-image: url("https://psv4.userapi.com/c834503/u82443951/docs/d17/cd067410cbf7/mock2.png");
 }
-#8, #8>div{
+#imgs > div[id="8"], #imgs > div[id="8"] > div{
 background-image: url("https://psv4.userapi.com/c834503/u82443951/docs/d4/430a5cd8f16c/mock3.png");
 }
 @media(min-width: 1174px) and (max-width: 1260px){
