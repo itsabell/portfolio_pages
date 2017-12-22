@@ -10,6 +10,7 @@ body > div > div{
     margin: auto;
     padding-top: 101px;
     padding-bottom: 110px;
+    backgroun-color: white;
 }
 input, button, textarea{
     outline: none;
