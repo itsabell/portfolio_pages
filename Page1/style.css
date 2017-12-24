@@ -42,11 +42,11 @@ footer{
 }
 #cover{
     height: 400px;
-    background-image: url("https://psv4.userapi.com/c834704/u82443951/docs/d4/6f82156dedb5/cover.jpg");
+    background-image: url(https://pp.userapi.com/c830109/v830109295/230dd/XFSsqljjVMY.jpg);
     background-size: cover;
 }
 #portfolio{
-    background-image: url("https://psv4.userapi.com/c834601/u82443951/docs/d5/0bf858b61dee/bckg.png");
+    background-image: url(https://pp.userapi.com/c830109/v830109295/230e7/UG_ZbDW5KXY.jpg);
 }
 .portfolio_divs{
     color: white;
@@ -88,14 +88,14 @@ footer i:hover{
 }
 /*Стили для картинок-блоков*/
 #img_logo{
-    background-image: url("https://psv4.userapi.com/c834600/u82443951/docs/d6/30a6e71cf3b2/Snow.png");
+    background-image: url(https://pp.userapi.com/c830109/v830109295/230ee/BpoiZBr5PXI.jpg);
     display: inline-block;
     margin: 11.5px 0px;
     width: 82px;
     height: 32px;
 }
 #img_menu_button{
-    background-image: url("https://psv4.userapi.com/c834601/u82443951/docs/d15/ad25f1d4c473/Menu.png");
+    background-image: url(https://pp.userapi.com/c830109/v830109295/230fc/q21U1CaQOgg.jpg);
     display: inline-block;
     margin: 19.5px 0px;
     width: 20px;
@@ -103,7 +103,7 @@ footer i:hover{
     float: right;
 }
 #img_podpis{
-    background-image: url("https://psv4.userapi.com/c834603/u82443951/docs/d3/d79f61131bb5/podpis.png");
+    background-image: url(https://pp.userapi.com/c830109/v830109295/230f5/2H-T0uNgy9Q.jpg);
     display: inline-block;
     width: 223px;
     height: 57px;
